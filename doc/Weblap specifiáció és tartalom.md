@@ -27,7 +27,7 @@ A jelenlegi legfontosabb információ, hogy szeptembertől teljesen új felnőtt
 Az [aikido.hu](aikido.hu) mellett tartalmilag forrásként tekintünk még a másik saját weboldalunkra: [www.aikidoka.hu](www.aikidoka.hu) illetve az [www.aikidogazdagret.hu](www.aikidogazdagret.hu) 
 
 Jelenleg elkészült egy vázlatos weboldal, ami már megtekinthető: ***[misogi.sup.hu](misogi.sup.hu)***
-
+Illetve a GitHub migráció után: ***qsoft-develop.github.io/Misogi-weboldal](qsoft-develop.github.io/Misogi-weboldal)***
 
 # Dizájn / arculati igények
 
@@ -255,9 +255,9 @@ Ugyanitt lehet egy link-gyűjtemény más weboldalakra. A legfontosabb link Harm
 Ide kerül az eredeti [aikido.hu](aikido.hu) oldalról a *dojo kézikönyv* c. PDF dokumentum is.
 
 # Technikai gondolatok
-A weboldalhoz kapcsolódó képek, videók és más kellékek a ./resources könyvtárban találhatók.
+A weboldalhoz kapcsolódó képek, videók és más kellékek a `./resources` könyvtárban találhatók.
 
-* <u>Favicon:</u> ./resources/images/favicon.png \
+* <u>Favicon:</u> `./resources/images/favicon.png` \
 
 * <u>Az oldal címe a böngészőben:</u> Aikido edzés Budán, kezdő és haladó szinten *(pl ha linkként elküldjük valakinek ez látszik) \
 
