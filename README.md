@@ -3,10 +3,11 @@
 Ez a repository tartalmazza a Misogi Aikido statikus weboldalának forrását.
 
 ## Tartalom
-- HTML oldalak (index, rola, aikido, helyszin, kapcsolat, jelentkezes, gyik, galeria)
-- Képek, logók, galéria, kanji karakterek
+- Részletes szöveges [specifikáció a doc](docs/Weblap specifiáció és tartalom.md) mappában.
+- Menüpontonként külön HTML oldalak, hogy könnyen szerkeszthető legyen egy-egy al-oldal
+- Képek, logók,  favicon, galéria, kanji karakterek a resources mappában
 - Térkép iframe és BKK link
-- Favicon, stíluslap és egyéb resource fájlok
+- Stíluslap és egyéb resource fájlok
 
 ## Cél
-Az oldal célja új érdeklődők toborzása és informatív online jelenlét biztosítása.
+Az oldal célja új érdeklődők toborzása..
