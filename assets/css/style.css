@@ -1,1 +1,62 @@
-x
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0d1b2a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.cta-button {
+  background: #0077cc;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
