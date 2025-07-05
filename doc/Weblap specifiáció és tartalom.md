@@ -1,28 +1,12 @@
 <!-----
-Conversion time: 0.664 seconds.
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β44
-* Sat Jul 05 2025 09:39:01 GMT-0700 (PDT)
-* Source doc: Misogi új Weboldal
-* Tables are currently converted to HTML tables.
-
-WARNING:
-You have 2 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
------>
-
 <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 0.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p>
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+----->
+
+# Bevezető
 
 A weboldal célja, hogy új embereket toborozzunk szeptemberben kezdődő új edzési szezonra.
 
@@ -261,7 +245,6 @@ A legidősebb tanítványom 58 éves volt, aki nulláról kezdte az aikidót. Ú
 ```
 
 
-
 ## Galéria menüpont
 
 <span style="text-decoration:underline;">Galéria videók és fotók:</span> a galéria elemeit külön resource mappában kell tárolni, hogy forráskód módosítása nélkül, az újabb file-ok feltöltésével bejuttathatók legyenek weblapra. A képek és videók megjelenési sorrendje a file nevek ABC szerinti sorrendje. Ha ehhez a JavaScript mellett esetleg más programkód is szükséges, az egyszerű PHP legyen.
@@ -271,27 +254,25 @@ Ugyanitt lehet egy link-gyűjtemény más weboldalakra. A legfontosabb link Harm
 
 Ide kerül az eredeti [aikido.hu](aikido.hu) oldalról a *dojo kézikönyv* c. PDF dokumentum is.
 
-
 # Technikai gondolatok
+A weboldalhoz kapcsolódó képek, videók és más kellékek a ./resources könyvtárban találhatók.
 
+* <u>Favicon:</u> ./resources/images/favicon.png \
 
+* <u>Az oldal címe a böngészőben:</u> Aikido edzés Budán, kezdő és haladó szinten *(pl ha linkként elküldjük valakinek ez látszik) \
 
-* <span style="text-decoration:underline;">Favicon:</span> [aikido.hu](http://aikido.hu) -ról \
+* <u>SEO szempont:</u> “aikido budapest”, “aikido XI kerület”, “aikido kezdő edzés” \
 
-* <span style="text-decoration:underline;">Az oldal címe a böngészőben:</span> Aikido edzés Budán, kezdő és haladó szinten *(pl ha linkként elküldjük valakinek ez látszik) \
-*
-* <span style="text-decoration:underline;">SEO szempont:</span> “aikido budapest”, “aikido XI kerület”, “aikido kezdő edzés” \
+* <u>Cookie:</u> valószínűleg nem lesz szükség cookie-kra, ezért a szokásos figyelmeztetés sem kell \
 
-* <span style="text-decoration:underline;">Cookie:</span> valószínűleg nem lesz szükség cookie-kra, ezért a szokásos figyelmeztetés sem kell \
+* <u>Modern letisztult design:</u> mobil felületen is jól olvasható betűk, világos pasztell háttér. \
 
-* <span style="text-decoration:underline;">Modern letisztult design:</span> mobil felületen is jól olvasható betűk, világos pasztell háttér. \
+* <u>Képek mérete:</u> JPG, max 1920 x 1080, max 200-500kB. A képeket érdemes átnevezni értelmes file-névre, ez SEO előny. \
 
-* <span style="text-decoration:underline;">Képek mérete:</span> JPG, max 1920 x 1080, max 200-500kB. A képeket érdemes átnevezni értelmes file-névre, ez SEO előny. \
-
-* <span style="text-decoration:underline;">Videók mérete:</span> max 720p felbontás, max. 10 MB méret. \
+* <u>Videók mérete:</u> max 720p felbontás, max. 10 MB méret. \
 Lehet saját tárhelyen (a webszerveren külön könyvtárban), vagy pl. a Youtube-on (nem muszáj kereshetővé tenni - a link birtokában megtekinthető beállítás) és beágyazott `&lt;iframe>` videóként lehet megmutatni, mint a térképet. \
 
-* <span style="text-decoration:underline;">Könyvtárszerkezet a szerveren:</span>** **a fájlokat logikus mappaszerkezetbe kell rendezni a tárhelyen. Ez a segíti a későbbi karbantartást. \
+* <u>Könyvtárszerkezet a szerveren:</u>** **a fájlokat logikus mappaszerkezetbe kell rendezni a tárhelyen. Ez a segíti a későbbi karbantartást. \
 A főmenü elemeinek megfelelő html források is jó lenne, ha külön file-okban lennének, nem beleömlesztve az index.html-be.
 
     ```
