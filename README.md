@@ -11,3 +11,6 @@ Ez a repository tartalmazza a Misogi Aikido statikus weboldalának forrását.
 
 ## Cél
 Az oldal célja új érdeklődők toborzása..
+
+Az elkészült GitHUB forrás azonnal publikálódik, és megtekinthető:
+  https://qsoft-develop.github.io/Misogi-weboldal/
