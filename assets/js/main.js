@@ -1,6 +1,8 @@
  // Insert shared header and activate menu links
  function loadHeader() {
-   fetch('assets/partials/header.html')
+  const scriptPath = document.currentScript && document.currentScript.src || '';
+  const base = scriptPath.replace(/\/?assets\/js\/[^/]*$/, '/');
+  fetch(base + 'assets/partials/header.html')
      .then(r => r.text())
      .then(html => {
        const tmp = document.createElement('div');
@@ -22,16 +24,7 @@
  }
  
  function highlightActiveLink() {
-  const current = location.pathname.split('/').pop() || 'index.html';
+   const current = location.pathname.split('/').pop() || 'index.html';
    document.querySelectorAll('.menu a').forEach(a => {
      if (a.getAttribute('href') === current) {
        a.classList.add('active');
-     }
-   });
- }
- 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', loadHeader);
-} else {
-  loadHeader();
-}
