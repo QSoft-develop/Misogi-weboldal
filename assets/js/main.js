@@ -1,6 +1,8 @@
  // Insert shared header and activate menu links
  function loadHeader() {
-  fetch('assets/partials/header.html')
+  const script = document.currentScript || document.querySelector('script[src$="main.js"]');
+  const headerUrl = new URL('../partials/header.html', script.src);
+  fetch(headerUrl)
      .then(r => r.text())
      .then(html => {
        const tmp = document.createElement('div');
@@ -8,8 +10,8 @@
        document.body.insertBefore(tmp.firstChild, document.body.firstChild);
        initMenu();
        highlightActiveLink();
-    })
-    .catch(err => console.error('Header load failed', err));
+     })
+     .catch(err => console.error('Header load failed', err));
  }
  
  function initMenu() {
@@ -26,12 +28,3 @@
    const current = location.pathname.split('/').pop() || 'index.html';
    document.querySelectorAll('.menu a').forEach(a => {
      if (a.getAttribute('href') === current) {
-       a.classList.add('active');
-     }
-   });
- }
- 
- if (document.readyState === 'loading') {
-   document.addEventListener('DOMContentLoaded', loadHeader);
- } else {
-   loadHeader();
