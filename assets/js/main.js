@@ -6,7 +6,7 @@ diff --git a//dev/null b/assets/js/main.js
 
 // Insert shared header and activate menu links
 function loadHeader() {
-  fetch('partials/header.html')
+  fetch('assets/partials/header.html')
     .then(r => r.text())
     .then(html => {
       const tmp = document.createElement('div');
