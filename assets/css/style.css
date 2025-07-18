@@ -1,3 +1,11 @@
+
+
+diff --git a/assets/css/style.css b/assets/css/style.css
+index 1af72207d141c5d33c7d3d7e4aaa4c27bd7c17c8..0d0557dec9d2dd5b274ab52199f963dd43379c1d 100644
+--- a/assets/css/style.css
++++ b/assets/css/style.css
+@@ -36,64 +36,64 @@ 
+
 header {
    font-size: 0.9rem;
    padding: 4px 10px;
@@ -59,3 +67,54 @@ header {
    font-size: 1rem;
  }
  
+button:hover {
+ /* Footer */
+ footer {
+   text-align: center;
+   background: #182b44;
+   color: #e8ecf9;
+   font-size: 1rem;
+   padding: 22px 0 12px 0;
+   position: sticky;
+   bottom: 0;
+   width: 100%;
+   box-shadow: 0 -2px 8px rgba(30,40,60,0.08);
+   margin-top: 60px;
+ }
+ 
+ /* Reszponzivitás */
+ @media (max-width: 700px) {
+   header .logo {
+     margin: 4px 10px 4px 4px;
+     height: 40px;
+   }
+   .hamburger {
+     display: block;
+   }
+   nav {
+     position: relative;
+    margin-left: auto;
+   }
+   .menu {
+     display: none;
+     flex-direction: column;
+     gap: 2px;
+     margin-right: 0;
+     background: #182b44;
+     position: absolute;
+     right: 0;
+     top: 64px;
+     width: 200px;
+     padding: 10px 0;
+     border-radius: 0 0 8px 8px;
+   }
+   .menu.show {
+     display: flex;
+   }
+   main {
+     padding: 13px 2vw 22px 2vw;
+   }
+   section.content, section.hero {
+     padding: 18px 3vw 20px 3vw;
+     margin-bottom: 14px;
+   }
