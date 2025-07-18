@@ -1,9 +1,3 @@
-
-
-
-diff --git a//dev/null b/assets/js/main.js
-
-
 // Insert shared header and activate menu links
 function loadHeader() {
   fetch('assets/partials/header.html')
